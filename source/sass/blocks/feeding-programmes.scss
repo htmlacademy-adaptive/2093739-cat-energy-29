@@ -1,0 +1,26 @@
+.feeding-programmes__title {
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+}
+
+.feeding-programmes__list {
+  @include list-reset;
+}
+
+.feeding-programmes__item {
+  padding: 30px 20px 0;
+  background-color: $basic-grey;
+}
+
+.feeding-programmes__link {
+  text-align: center;
+  font-family: $font-secondary;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $black;
+}

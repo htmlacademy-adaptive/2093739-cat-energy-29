@@ -1,0 +1,9 @@
+.title {
+  font-family: $font-secondary;
+  font-weight: 400;
+  color: $black;
+
+  &--bright {
+    color: $white;
+  }
+}
