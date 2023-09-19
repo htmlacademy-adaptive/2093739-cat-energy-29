@@ -1,7 +1,14 @@
 .hero {
-  padding-top: 27px;
   position: relative;
-  width: 320px;
+  margin: 0 auto;
+  padding-top: 27px;
+  width: $mobile-width;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 65px;
+    width: $tablet-width;
+    min-height: 875px;
+  }
 
   &::before {
     position: absolute;
@@ -15,6 +22,10 @@
     z-index: -2;
     top: 0;
     left: 0;
+
+    @media (min-width: $tablet-width) {
+      background-image: none;
+    }
   }
 }
 
@@ -26,6 +37,12 @@
   font-size: 36px;
   line-height: 36px;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+    color: $black;
+  }
 }
 
 .hero__slogan {
@@ -39,10 +56,27 @@
   text-transform: uppercase;
   text-align: center;
   color: $white;
+
+  @media (min-width: $tablet-width) {
+    color: $black;
+  }
 }
 
 .hero__link {
   width: 280px;
   margin: 0 auto;
   padding: 10px 44px;
+}
+
+.hero__image {
+  object-fit: contain;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    width: 709px;
+    height: 609px;
+    z-index: -1;
+    top: 266px;
+    right: 30px;
+  }
 }

@@ -1,3 +1,9 @@
+.address {
+  padding: 60px 80px;
+  display: flex;
+  flex-direction: row;
+}
+
 .address__title {
   text-transform: uppercase;
 }

@@ -1,0 +1,12 @@
+.contacts {
+  position: relative;
+}
+
+.contacts__address {
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    width: 565px;
+    top: 95px;
+    background-color: $white;
+  }
+}
