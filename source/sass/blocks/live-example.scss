@@ -11,7 +11,9 @@
 }
 
 .live-example__text-wrapper {
-    @media (min-width: $desktop-width) {
+  width: 100%;
+
+  @media (min-width: $desktop-width) {
     width: 432px;
   }
 }
