@@ -4,6 +4,7 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
+  color: $black;
 }
 
 .feeding-programmes__list {
@@ -13,6 +14,10 @@
 .feeding-programmes__item {
   padding: 30px 20px 0;
   background-color: $basic-grey;
+}
+
+.feeding-programmes__description {
+  color: $special-darkgrey;
 }
 
 .feeding-programmes__link {

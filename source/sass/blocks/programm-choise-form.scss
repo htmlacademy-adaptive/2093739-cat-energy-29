@@ -1,0 +1,9 @@
+.programm-choise-form__legend {
+  font-size: 24px;
+  line-height: 26px;
+  color: $black;
+}
+
+.programm-choise-form__list {
+  @include list-reset;
+}

@@ -1,0 +1,10 @@
+.product-description {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.product-description__wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid $black;
+}
