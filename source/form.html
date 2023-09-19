@@ -2,7 +2,9 @@
 <html class="page" lang="ru">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML Academy: Кэт энерджи</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="page__body">
     <!-- Хедер (логотип + навигация) -->
@@ -17,21 +19,21 @@
         </button>
         <ul class="main-nav__list">
           <li class="main-nav__item main-nav__item">
-            <a class="main-nav__link" href="index.html">Главная</a>
+            <a class="main-nav__link title" href="index.html">Главная</a>
           </li>
           <li class="main-nav__item">
-            <a class="main-nav__link" href="catalog.html">Каталог продукции</a>
+            <a class="main-nav__link title" href="catalog.html">Каталог продукции</a>
           </li>
           <li class="main-nav__item main-nav__item--active">
-            <a class="main-nav__link" href="form.html">Подбор программы</a>
+            <a class="main-nav__link title" href="form.html">Подбор программы</a>
           </li>
         </ul>
       </nav>
   </header>
     <main class="main-container">
       <header class="page-header">
-        <h1 class="page-header__title page-header__title--form">Подбор программы</h1>
-        <h2 class="page-header__subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</h2>
+        <h1 class="page-header__title page-header__title--form title">Подбор программы</h1>
+        <h2 class="page-header__subtitle title">Заполните анкету, и мы подберем программу питания для вашего кота</h2>
       </header>
       <form class="programm-choise-form" action="https://echo.htmlacademy.ru/" method="post">
         <div class="programm-choise-form__wrapper">
@@ -68,7 +70,7 @@
             </ul>
           </fieldset>
           <fieldset class="programm-choise-form__fieldset programm-choise-form__fieldset--contacts">
-            <legend class="programm-choise-form__legend">Контактные данные (владельца кота)</legend>
+            <legend class="programm-choise-form__legend title">Контактные данные (владельца кота)</legend>
             <ul class="programm-choise-form__list">
               <li class="programm-choise-form__item">
                 <label class="programm-choise-form__label" for="email">E-mail:*</label>
@@ -81,11 +83,11 @@
             </ul>
           </fieldset>
           <fieldset class="programm-choise-form__fieldset programm-choise-form__fieldset--comments">
-            <legend class="programm-choise-form__legend">Комментарий</legend>
+            <legend class="programm-choise-form__legend title">Комментарий</legend>
             <textarea class="programm-choise-form__textarea" id="comment" name="comment" placeholder="Расскажите обо всех повадках кота"></textarea>
           </fieldset>
           <fieldset class="programm-choise-form__fieldset">
-            <legend class="programm-choise-form__legend">Дополнительно</legend>
+            <legend class="programm-choise-form__legend title">Дополнительно</legend>
             <ul class="programm-choise-form__list">
               <li class="programm-choise-form__item">
                 <input class="programm-choise-form__input" type="checkbox" id="sweetener" name="sweetener" checked>
@@ -117,7 +119,7 @@
         <h2 class="visually-hidden">Контакты.</h2>
         <div class="contacts__wrapper">
           <div class="contacts__address address">
-            <h3 class="address__title">Приглашаем к сотрудничеству дилеров!</h3>
+            <h3 class="address__title title">Приглашаем к сотрудничеству дилеров!</h3>
             <address class="address__text">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</address>
           </div>
           <div class="contacts__map map">
