@@ -1,6 +1,12 @@
+.feeding-programmes {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 .feeding-programmes__title {
   margin: 0;
   margin-bottom: 29px;
+  padding-left: 70px;
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
@@ -9,11 +15,27 @@
 
 .feeding-programmes__list {
   @include list-reset;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  @media (min-width: $tablet-width) {
+    gap: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    gap: 80px;
+  }
 }
 
 .feeding-programmes__item {
   padding: 30px 20px 0;
   background-color: $basic-grey;
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+  }
 }
 
 .feeding-programmes__description {

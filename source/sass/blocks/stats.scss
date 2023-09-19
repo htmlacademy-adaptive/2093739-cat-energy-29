@@ -1,0 +1,13 @@
+.stats {
+  width: 124px;
+  display: flex;
+  flex-direction: column;
+}
+
+.stats__value {
+  font-family: $font-secondary;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
